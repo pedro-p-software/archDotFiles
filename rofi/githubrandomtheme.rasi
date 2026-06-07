@@ -34,7 +34,7 @@
     active-background:           @orange;
 }
 window {
-    border:     1;
+    border:     0;
     text-color: #FFFFFFff;
     /*background-color: rgba ( 0, 0, 0, 0 % );*/
     background-color: @blue;
@@ -58,19 +58,19 @@ mainbox {
 }
 message {
     border:     1px dash 0px 0px ;
-    text-color: @orange;
+    text-color: @red;
     padding:    2px 0px 0px ;
 }
 textbox {
-    text-color: @color;
+    text-color: @red;
 }
 
 prompt{
     enabled: true;
     background-color: @orange;
     text-color: @black-foreground;
-    padding: 	0.25% 0.75% 0.25% 0.75%;
-    border-radius: 5%;
+    padding: 0.25% 10% 0.25% 2%;
+    border-radius: 1%;
     font: "Jet Brains Mono Regular 14";
 }
 
@@ -80,7 +80,7 @@ inputbar {
 }
 textbox-prompt-colon {
     expand:     false;
-    str:        " ::";
+    str:       " ▶";
     margin:     0px 0.3em 0em 0em ;
     text-color: @normal-foreground;
     //padding: 1.40% 0% 1% 0%;
@@ -97,7 +97,8 @@ listview {
     //background-color: @orange;
 }
 element {
-    border: 0;
+    border: 1;
+    //border-color: @orange;
     background-color: #00000000;
     text-color: #FFFFFFff;
 }
