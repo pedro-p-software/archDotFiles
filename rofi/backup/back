@@ -1,0 +1,76 @@
+* {
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+
+    width: 38%;
+    border: 2px;
+    border-radius: 18px;
+
+    background-color: rgba(15,15,15,0.92);
+    border-color: rgba(ff5500ff);
+
+    padding: 20px;
+}
+
+mainbox {
+    spacing: 12px;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+
+    border-radius: 12px;
+    background-color: rgba(30,30,30,0.85);
+
+    padding: 12px;
+}
+
+prompt {
+    enabled: false;
+}
+
+entry {
+    placeholder: "Pesquisar...";
+    placeholder-color: rgba(999999ff);
+    text-color: rgba(ffffffff);
+}
+
+listview {
+    lines: 8;
+    columns: 1;
+
+    spacing: 8px;
+    scrollbar: false;
+}
+
+element {
+    padding: 12px;
+    border-radius: 10px;
+}
+
+element normal.normal {
+    background-color: transparent;
+}
+
+element selected.normal {
+    background-color: rgba(ff550044);
+    text-color: rgba(ffffffff);
+}
+
+element-icon {
+    size: 28px;
+    margin: 0px 10px 0px 0px;
+}
+
+element-text {
+    text-color: inherit;
+}
+
+textbox-prompt-colon {
+    enabled: false;
+}
