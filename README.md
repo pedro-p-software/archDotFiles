@@ -14,3 +14,7 @@
 
 # FASTFETCH
 <img width="884" height="581" alt="image" src="https://github.com/user-attachments/assets/db82d222-118c-45ad-a6c6-6345738d90f3" />
+
+# WAYBAR
+<img width="1917" height="32" alt="image" src="https://github.com/user-attachments/assets/b4c97337-fe3f-4628-9b44-9888419a38a5" />
+
