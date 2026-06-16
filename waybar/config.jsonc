@@ -1,0 +1,39 @@
+{
+    "layer": "top",
+    "position": "top",
+
+    "modules-left": [
+        "network",
+	"hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+	"cpu",
+	"memory",
+	"pulseaudio",
+    ],
+
+        "pulseaudio": {
+	 "format": "{volume}% ",
+	 "on-click": "pavucontrol"
+	},
+
+	"network":{
+	"format-wifi": "Rede:  {essid}",
+	"format-ethernet": "Rede: 󰈀 Cabo",
+	"format-disconnected": "󰖪 Sem rede",
+	"tooltip-format": "{ipaddr}"
+	},
+	
+	"cpu":{
+	"format": ": {usage}%"
+	},
+
+	"memory":{
+	"format": ": {used:0.1f}G // {total:0.1f}G"
+	}
+}

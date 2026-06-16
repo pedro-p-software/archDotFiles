@@ -1,0 +1,105 @@
+* {
+    border: none;
+    border-radius: 12px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* Workspace */
+#workspaces {
+    margin: 6px;
+    padding: 0 6px;
+    background: rgba(20, 20, 20, 0.75);
+}
+
+#workspaces button {
+    padding: 0 6px;
+    color: #7f849c;
+}
+
+#workspaces button.active {
+    color: #89b4fa;
+}
+
+#workspaces button:hover {
+    background: transparent;
+    color: #cdd6f4;
+}
+
+/* pulseaudio */
+#pulseaudio:hover{
+	color:#e0af68;
+}
+
+/* Módulos */
+#clock,
+#network,
+#pulseaudio,
+#custom-updates,
+#keyboard-state,
+#language,
+#desktop,
+#memory,
+#cpu,
+#tray {
+    background: rgba(20, 20, 20, 0.75);
+    margin: 6px 4px;
+    padding: 0 14px;
+    color: #cdd6f4;
+}
+
+/* Destaques */
+
+#clock {
+    color: #89b4fa;
+}
+
+#network {
+    color: #a6e3a1;
+}
+
+#custom-updates {
+    color: #fab387;
+}
+
+
+#pulseaudio{
+	color:#f9e2af;
+}
+
+#language,
+#keyboard-state {
+    color: #cba6f7;
+}
+
+#memory{
+    color: #cdd6f4;
+}
+
+#cpu{
+    color: #f38ba8;
+}
+
+/* Tray */
+
+#tray {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+/* Tooltip */
+
+tooltip {
+    background: rgba(15, 15, 15, 0.95);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+tooltip label {
+    color: #cdd6f4;
+}
